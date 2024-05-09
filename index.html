@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div id="calculator-container">
+        <input dir="rtl" id="output" type="text"/>
+        <div class="buttons-container">
+            <table>
+                <tr>
+                  <td><button onclick="buttonClick(event)">7</button></td>
+                  <td><button onclick="buttonClick(event)">8</button></td>
+                  <td><button onclick="buttonClick(event)">9</button></td>
+                  <td><button onclick="operationClick('/')">&#247;</button></td>
+                </tr>
+                <tr>
+                  <td><button onclick="buttonClick(event)">4</button></td>
+                  <td><button onclick="buttonClick(event)">5</button></td>
+                  <td><button onclick="buttonClick(event)">6</button></td>
+                  <td><button onclick="operationClick('x')">x</button></td>
+                </tr>
+                <tr>
+                  <td><button onclick="buttonClick(event)">1</button></td>
+                  <td><button onclick="buttonClick(event)">2</button></td>
+                  <td><button onclick="buttonClick(event)">3</button></td>
+                  <td><button onclick="operationClick('-')">-</button></td>
+                </tr>
+                 <tr>
+                  <td><button onclick="buttonClick(event)">0</button></td>
+                  <td><button>.</button></td>
+                  <td><button onclick="operationClick('+')">+</button></td>
+                  <td><button id="equals" onclick="equalClick()">=</button></td>
+                </tr>
+              </table>
+        </div>
+      </div>
+    <script src="index.js"></script>
+</body>
+</html>

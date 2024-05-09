@@ -1,0 +1,30 @@
+#calculator-container {
+    background-color: rgb(67, 70, 69);
+    width: 160px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+button {
+    width: 30px;
+    height: 30px;
+    background-color: rgb(231, 226, 224);
+    box-shadow: 2px 2px;
+}
+
+input, .buttons-container {
+    width: 150px;
+}
+
+input {
+    height: 20px;
+}
+
+table {
+    margin-left: 5%;
+    margin-left: 5%;
+}
+
+#equals {
+    background-color: rgb(182, 65, 19);
+}
